@@ -17,12 +17,6 @@ Guidelines to reproduce the figures in the dissertation are as follows.
 - Figure 5.9, page 94: Uncomment lines 37-43 in "menpsCharacterization.py", comment out line 9, uncomment line 8, set the duty cycle to 0.5 for biphasic or 1 for monophasic, and run the file
   
 - Figure 5.10, page 99: Set the ac field under the variable "h_amp" in "menpsCharacterization.py", and run the file
-
-Note that this work relies on Brian 2: https://brian2.readthedocs.io/en/stable/
-
-Further note that this code makes use of C++ code generation: https://brian2.readthedocs.io/en/stable/introduction/install.html#requirements-for-c-code-generation
-
-The code can also be run without C++ code generation, but that requires an additional line: prefs.codegen.target = "numpy"
   
 - Figure 5.11, page 100: Uncomment lines 25-34 in "menpsCharacterization.py", comment out line 9, uncomment line 8, set the duty cycle to 0.5 for biphasic or 1 for monophasic, and run the file
   
@@ -31,3 +25,9 @@ The code can also be run without C++ code generation, but that requires an addit
   
 - Figure 5.13, page 102: Uncomment line 100 in "Simple Myelinated Axon.py" and run the file to produce the data ("distance_numparts.pkl")
                          Uncomment line 110 in "Simple Myelinated Axon.py" and run the file to produce the figure
+
+Note that this work relies on Brian 2: https://brian2.readthedocs.io/en/stable/
+
+Further note that this code makes use of C++ code generation: https://brian2.readthedocs.io/en/stable/introduction/install.html#requirements-for-c-code-generation
+
+The code can also be run without C++ code generation, but that requires an additional line: prefs.codegen.target = "numpy"
