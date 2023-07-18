@@ -14,11 +14,11 @@ Guidelines to reproduce the figures in the dissertation are as follows.
 - Figure 5.8, page 91: Uncomment line 102 in "Simple Myelinated Axon.py" and run the file to produce the data ("distance_numparts.pkl")
                        Uncomment line 106 in "Simple Myelinated Axon.py" and run the file to produce the figure
   
-- Figure 5.9, page 94: Uncomment lines 37-43 in "menpsCharacterization.py", comment out line 9, uncomment line 8, set the duty cycle to 0.5 for biphasic or 1 for monophasic, and run the file
+- Figure 5.9, page 94: Uncomment lines 37-43 in "menpsCharacterization.py", uncomment line 8, set the duty cycle to 0.5 for biphasic or 1 for monophasic, and run the file
   
-- Figure 5.10, page 99: Set the ac field under the variable "h_amp" in "menpsCharacterization.py", and run the file
+- Figure 5.10, page 99: Uncomment lines 12-22 in "menpsCharacterization.py", uncomment line 9, set the ac field magnitude under the variable "h_amp" in "menpsCharacterization.py", and run the file
   
-- Figure 5.11, page 100: Uncomment lines 25-34 in "menpsCharacterization.py", comment out line 9, uncomment line 8, set the duty cycle to 0.5 for biphasic or 1 for monophasic, and run the file
+- Figure 5.11, page 100: Uncomment lines 25-34 in "menpsCharacterization.py", uncomment line 8, set the duty cycle to 0.5 for biphasic or 1 for monophasic, and run the file
   
 - Figure 5.12, page 101: Uncomment line 104 in "Simple Myelinated Axon.py" and run the file to produce the data ("distance_numparts.pkl")
                          Uncomment line 108 in "Simple Myelinated Axon.py" and run the file to produce the figure
