@@ -1,6 +1,6 @@
 # MENPs_as_nanoelectrodes
 This repository contains all the code relevant to my PhD dissertation entitled "Magnetoelectric Nanoparticles as Wireless Nanoelectrodes for Neuromodulation."
-The dissertation can be found at the following link: https://scholarship.miami.edu/esploro/outputs/991031815720402976/filesAndLinks?institution=01UOML_INST&index=null
+The dissertation can be found at the following link: https://scholarship.miami.edu/esploro/outputs/doctoral/Magnetoelectric-Nanoparticles-as-Wireless-Nanoelectrodes-For/991031815720402976?institution=01UOML_INST
 
 Guidelines to reproduce the figures in the dissertation are as follows.
 - Figure 5.3, page 83: Simply run the file "compartmentalValidation.py"
