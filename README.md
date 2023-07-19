@@ -11,7 +11,7 @@ Guidelines to reproduce the figures in the dissertation are as follows.
   
 - Figure 5.6, page 86: Uncomment line 114 in "Simple Myelinated Axon.py" and run the file
   
-- Figure 5.8, page 91: Uncomment line 102 in "Simple Myelinated Axon.py" and run the file to produce the data ("distance_numparts.pkl")
+- Figure 5.8, page 91: Uncomment line 102 in "Simple Myelinated Axon.py" and run the file to produce the data ("strength_duration.pkl")
                        Uncomment line 106 in "Simple Myelinated Axon.py" and run the file to produce the figure
   
 - Figure 5.9, page 94: Uncomment lines 37-43 in "menpsCharacterization.py", uncomment line 8, set the duty cycle to 0.5 for biphasic or 1 for monophasic, and run the file
@@ -23,7 +23,7 @@ Guidelines to reproduce the figures in the dissertation are as follows.
 - Figure 5.12, page 101: Uncomment line 104 in "Simple Myelinated Axon.py" and run the file to produce the data ("distance_numparts.pkl")
                          Uncomment line 108 in "Simple Myelinated Axon.py" and run the file to produce the figure
   
-- Figure 5.13, page 102: Uncomment line 100 in "Simple Myelinated Axon.py" and run the file to produce the data ("distance_numparts.pkl")
+- Figure 5.13, page 102: Uncomment line 100 in "Simple Myelinated Axon.py" and run the file to produce the data ("menplayers_800_Oe.pkl")
                          Uncomment line 110 in "Simple Myelinated Axon.py" and run the file to produce the figure
 
 Note that this work relies on Brian 2: https://brian2.readthedocs.io/en/stable/
