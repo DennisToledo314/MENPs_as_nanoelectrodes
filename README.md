@@ -25,10 +25,10 @@ Guidelines to reproduce the figures in the dissertation are as follows.
   
 - Figure 5.13, page 102: Uncomment line 100 in "Simple Myelinated Axon.py" and run the file to produce the data ("menplayers_800_Oe.pkl")
                          Uncomment line 110 in "Simple Myelinated Axon.py" and run the file to produce the figure.
-                         Note that a pulse width (PW) of 100 ms was used in this particular simulation.
-                         Also note that, strictly speaking, there are 51 layers (178,500 total MENPs) involved in this simulation.
+                         - Note that a pulse width (PW) of 100 ms was used in this particular simulation.
+                         - Also note that, strictly speaking, there are 51 layers (178,500 total MENPs) involved in this simulation.
 
-Note that this work relies on Brian 2: https://brian2.readthedocs.io/en/stable/
+This work relies on Brian 2: https://brian2.readthedocs.io/en/stable/
 
 Further note that this code makes use of C++ code generation: https://brian2.readthedocs.io/en/stable/introduction/install.html#requirements-for-c-code-generation
 
