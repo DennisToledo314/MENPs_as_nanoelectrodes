@@ -21,7 +21,7 @@ def plot_linear_model(t, duty_cy, polarization_curr_menps, appl_mem_voltage):
 
     axs[0].plot(t * 1e3, polarization_curr_menps * 1e15, color='red')
     axs[0].set_xlabel('Time (ms)')
-    axs[0].set_ylabel('Current (aA)')
+    axs[0].set_ylabel('Current (fA)')
     axs[0].grid()
 
     axs[1].plot(t * 1e3, appl_mem_voltage * 1e9, color='blue')
@@ -134,7 +134,7 @@ def plot_nonlinear_model_waveforms(t, duty_cy, polarization_curr_menps, appl_mem
 
     axs[0].plot(t * 1e3, polarization_curr_menps * 1e15, color='red')
     axs[0].set_xlabel('Time (ms)')
-    axs[0].set_ylabel('Current (aA)')
+    axs[0].set_ylabel('Current (fA)')
     axs[0].grid()
 
     axs[1].plot(t * 1e3, appl_mem_voltage * 1e9, color='blue')
